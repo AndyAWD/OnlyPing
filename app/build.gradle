@@ -27,6 +27,10 @@ android {
             maven { url 'https://jitpack.io' }
         }
     }
+
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
